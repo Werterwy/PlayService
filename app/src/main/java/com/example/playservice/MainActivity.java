@@ -8,11 +8,8 @@ import android.content.Context;
 import android.content.ServiceConnection;
 import android.os.AsyncTask;
 import android.os.Bundle;
-
 import static android.app.Service.START_FLAG_RETRY;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Service;
 import android.content.Intent;
 import android.os.Bundle;
@@ -44,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton buttonRight = findViewById(R.id.button_right);
         ImageView imageView = findViewById(R.id.imageView);
         stopPause = findViewById(R.id.stopPause);
-      /*  stopPause2 = findViewById(R.id.stopPause2);*/
+       /* stopPause2 = findViewById(R.id.stopPause2);*/
         Button btnStop = findViewById(R.id.btn_stop);
 
         // Создание сервиса для воспроизведения музыки

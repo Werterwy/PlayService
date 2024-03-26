@@ -76,7 +76,6 @@ public class PlayService extends Service {
         return START_STICKY;
     }
 
-
     // Метод для остановки воспроизведения музыки и перехода в состояние паузы
     private void pauseMusic() {
         if (mPlayer != null && mPlayer.isPlaying()) {
@@ -117,7 +116,6 @@ public class PlayService extends Service {
             mPlayer = null;
         }
     }
-
     // Метод для остановки воспроизведения музыки
     public void stopMusic() {
         if (mPlayer != null && mPlayer.isPlaying()) {
